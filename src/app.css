@@ -1,0 +1,36 @@
+:root {
+	/* PRIMARY COLORS */
+	--pr-green-200: hsl(148, 38%, 91%);
+	--pr-green-600: hsl(169, 82%, 27%);
+	--pr-red: hsl(0, 66%, 54%);
+
+	/* NEUTRAL COLORS */
+	--ntl-white: hsl(0, 0%, 100%);
+	--ntl-grey-500: hsl(186, 15%, 59%);
+	--ntl-grey-900: hsl(187, 24%, 22%);
+
+	/* FONT DEFINITION */
+	font-size: 62.5%;
+	--ft-w-400: 400;
+	--ft-w-700: 700;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Karla", sans-serif;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: "Karla", sans-serif;
+	background-color: var(--pr-green-200);
+	font-weight: var(--ft-w-400);
+}
+
+
+.field-container {
+	display: grid;
+	gap: .8rem;
+}
